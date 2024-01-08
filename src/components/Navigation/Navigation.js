@@ -84,7 +84,7 @@ export const Navigation = ({ handleBurgerClick }) => {
                   <Burger />
               </StyledBurger>
               <StyledGetWhitelistedIcon>
-                  <a style={{ textDecoration: "none" }} href="https://Kisskitties.com/">
+                  <a style={{ textDecoration: "none" }} href="https://Kisskitties.com/" target="_blank">
                       <img src={Logo} width="75" height="65" alt="" style={{filter: 'brightness(80%) contrast(300%);'}}></img>
                       {/* 1974  x  1378 */}
                   </a>
@@ -95,7 +95,7 @@ export const Navigation = ({ handleBurgerClick }) => {
               <StyledStakeItemBuy
                   activeButton={true}
                   target="_blank"
-                  href="https://pancakeswap.finance/swap?outputCurrency=0xe89868153f7748f3dB226E4f60a810a1127BF740"
+                  href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0xC2193D9F8e056ec9c43B59A29B53D9c6190147A4"
                   style={{ textDecoration: "none" }}
               >
                   <p className="text">{t("STAKE.BUY")}</p>

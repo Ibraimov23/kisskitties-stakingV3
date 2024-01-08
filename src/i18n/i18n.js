@@ -21,8 +21,8 @@ i18n.use(initReactI18next).init({
                 BACK: "Back",
                 STAKE: {
                     STAKE_TITLE1: "KISS staking $KISS",
-                    STAKE_TITLE2: "Stake LP $KISS/BNB",
-                    STAKE_TITLE3: "Stake LP $KISS/BNB",
+                    STAKE_TITLE2: "Stake LP $KISS/ETH",
+                    STAKE_TITLE3: "Stake LP $KISS/ETH",
                     STAKE_TITLE25: "EARN $KISS",
                     STAKE_TITLE35: "EARN $USDT",
                     APR: "APR",
@@ -40,9 +40,9 @@ i18n.use(initReactI18next).init({
                     HELPSTAKE1:
                         "Your deposit will be locked for 15 days. However, the rewards will always be available for withdrawal. When withdrawing tokens, a commission may be charged, up to ten percent",
                     HELPSTAKE2:
-                        "Add Liquidity to $KISS/BNB pair, get LP tokens, stake LP tokens, and earn $KISS! You can always withdraw the reward, but the LP will be locked for 15 days.",
+                        "Add Liquidity to $KISS/ETH pair, get LP tokens, stake LP tokens, and earn $KISS! You can always withdraw the reward, but the LP will be locked for 15 days.",
                     HELPSTAKE3:
-                        "Add Liquidity to $KISS/BNB pair, get LP tokens, stake LP tokens, and earn $USDT! You can always withdraw the reward, but the LP will be locked for 15 days.",
+                        "Add Liquidity to $KISS/ETH pair, get LP tokens, stake LP tokens, and earn $USDT! You can always withdraw the reward, but the LP will be locked for 15 days.",
                     HELPAPR: "APR is not fixed and can change constantly",
                     SOON: "Soon",
                     HELPSOON:

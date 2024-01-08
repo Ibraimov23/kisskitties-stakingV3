@@ -444,8 +444,8 @@ export const StakeItem = ({
       :null}
       {version == "2" ? 
       <StyledStakeItemRowWithButton>
-          <StyledStakeItemButton onClick={() => window.open('https://pancakeswap.finance/add/BNB/0xe89868153f7748f3dB226E4f60a810a1127BF740', '_blank')} activeButton={ true } style={{ width: '100%' }}>
-              {t("Add Liquidity $KISS/BNB")}
+          <StyledStakeItemButton onClick={() => window.open('https://app.uniswap.org/add/v2/ETH/0xC2193D9F8e056ec9c43B59A29B53D9c6190147A4', '_blank')} activeButton={ true } style={{ width: '100%' }}>
+              {t("Add Liquidity $KISS/ETH")}
           </StyledStakeItemButton>
       </StyledStakeItemRowWithButton>
       : null}
@@ -529,8 +529,8 @@ export const StakeItem = ({
           </StyledStakeItemButton>{/*Отключено (вернуть handleStake, activeButton={approved}, надпись)*/}
    </StyledStakeItemRowWithButton>
    <StyledStakeItemRowWithButton>
-        <StyledStakeItemButton onClick={() => window.open('https://pancakeswap.finance/add/BNB/0xe89868153f7748f3dB226E4f60a810a1127BF740', '_blank')} activeButton={ true } style={{ width: '100%' }}>
-              {t("Add Liquidity $KISS/BNB")}
+        <StyledStakeItemButton onClick={() => window.open('https://app.uniswap.org/add/v2/ETH/0xC2193D9F8e056ec9c43B59A29B53D9c6190147A4', '_blank')} activeButton={ true } style={{ width: '100%' }}>
+              {t("Add Liquidity $KISS/ETH")}
         </StyledStakeItemButton>
         </StyledStakeItemRowWithButton>
       <StyledStakeItemRowWithButton>
