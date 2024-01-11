@@ -256,7 +256,7 @@ function App() {
             <WalletConnectPopUp visible={ active ? !active : popUpVisible } onClose={v => setPopUpVisibility(false)} onConnect={
                 async wallet => {
                     if (wallet === 'MetaMask') {
-                        window.ethereum === undefined ? window.open('https://metamask.app.link/dapp/kisskitties-staking.vercel.app/','_blank') :          
+                        window.ethereum === undefined ? window.open('https://metamask.app.link/dapp/staking.kisskitties.com/','_blank') :          
                         await Mconnect();
                         await SC.init(window.ethereum);
                     } else if (wallet === 'WalletConnect') {
